@@ -8,19 +8,13 @@
 .nav-bar {
     height: 60px;
     margin-top: 10px;
+    background: var(--danger);
 }
-.nav-bar:nth-child(2) a:hover{
+.nav-bar a:hover{
     background: var(--danger);
     color: #ffffff;
 }
-.nav-bar:nth-child(3) a:hover {
-    background: #001954;
-    color: #ffffff;
-}
-.nav-bar:nth-child(2) {
-    background: var(--danger);
-}
-.nav-bar:nth-child(2) > div:hover {
+.nav-bar div:hover {
     border-bottom: rgba(255, 255, 255, 0.75) solid 2px;
 }
 .nav-bar a {
@@ -34,17 +28,65 @@
 }
 .nav-bar > div {
     height: 100%;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     padding: 0;
 }
-.nav-bar > div:last-of-type:hover {
+.nav-bar > div:first-of-type:hover , .nav-bar > div:last-of-type:hover {
     border: none !important;
 }
 .nav-bar > div:last-of-type {
     margin-right: auto !important;
+    margin-left: 10px;
 }
 a , a:hover {
     text-decoration: none;
+}
+.ntgl {
+    height: 40px;
+    width: 40px;
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.ntgl i {
+    display: block;
+    height: 2x;
+    width: 30px !important;
+    border: rgba(255, 255, 255, 0.85) 1px solid;
+    margin-top: 5px;
+    border-radius: 7px;
+    transition: 1s;
+}
+.ntgl i:nth-child(1) {
+    position: absolute;
+    top: 5px;
+}
+.ntgl i:nth-child(2) {
+    position: absolute;
+    top: 15px;
+    opacity: 1;
+}
+.ntgl i:nth-child(3) {
+    position: absolute;
+    top: 25px;
+}
+.tgl i:nth-child(1) {
+    position: absolute;
+    top: 15px !important;
+    transform: rotate(-45deg);
+
+}
+.tgl i:nth-child(2) {
+    position: absolute;
+    top: 15px;
+    opacity: 0;
+}
+.tgl i:nth-child(3) {
+    position: absolute;
+    top: 15px !important;
+    transform: rotate(45deg);
 }
