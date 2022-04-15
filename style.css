@@ -8,8 +8,6 @@
 .nav-bar {
     height: 60px;
     margin-top: 10px;
-    /*background: #7800e0;*/
-    background: linear-gradient(#6600c0, #a264d7);
 }
 .nav-bar:nth-child(2) a:hover{
     background: var(--danger);
@@ -24,33 +22,6 @@
 }
 .nav-bar:nth-child(2) > div:hover {
     border-bottom: rgba(255, 255, 255, 0.75) solid 2px;
-}
-.nav-bar:nth-child(3) {
-    background: #001954;
-}
-.nav-bar:nth-child(3) > div:hover {
-    border-bottom: #ffba3b solid 2px;
-}
-.nav-bar:nth-child(4) {
-    background: #001954;
-}
-.nav-bar:nth-child(4) > div:hover {
-    background: #ffffff;
-    border: none;
-}
-.nav-bar:nth-child(4) > div:last-of-type:hover {
-    background: #001954;
-}
-.nav-bar:nth-child(4) > div a:hover {
-    color: #001954 !important;
-}
-.nav-bar:nth-child(4) > div:last-of-type a:hover {
-    color: #ffffff !important;
-    background: #001954;
-}
-.nav-bar:nth-child(1) > div:last-of-type a:hover {
-    color: #ffffff !important;
-    background: linear-gradient(#6600c0, #a264d7);
 }
 .nav-bar a {
     color: #ffffff;
@@ -67,11 +38,6 @@
     justify-content: center;
     align-items: center;
     padding: 0;
-}
-.nav-bar > div a:hover {
-    /*border-bottom: var(--danger) solid 2px;*/
-    background: #ffffff;
-    color: #001957;
 }
 .nav-bar > div:last-of-type:hover {
     border: none !important;
