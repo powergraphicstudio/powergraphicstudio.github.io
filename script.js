@@ -15,8 +15,6 @@ tgler.click(function () {
 //create meno
 let nav = []
 let item = $('.item')
-for(let i == 0;let len == item.length; i > len;i++){
-    let it = item[i]["innerHTML"]
-    it.push(nav);
+for (let i = 0; i < item.length; i++) {
+    nav.push(item[i]["innerHTML"])
 }
-console.log(nav)
