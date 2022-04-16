@@ -1,5 +1,8 @@
-//navigation meno scripts
 
+//navigation meno scripts
+const navigation = $('.nav-bar')
+navigation.append('<ul class="nav-frame d-md-none"></ul>')
+const navFrame = $('.nav-frame')
 const navItem = $('.nav-bar > div');
 const tgler = $('.nav-bar > div:first-of-type');
 const logo = $('.nav-bar > div:last-of-type');
@@ -11,10 +14,18 @@ logo.addClass("d-flex");
 const ic = $('.ntgl i:nth-child(2)');
 tgler.click(function () {
     $('.ntgl').toggleClass("tgl");
+    navFrame.toggleClass("show");
+    setTimeout(function () {
+        navFrame.toggleClass("in");
+    },1)
+
 })
 //create meno
 let nav = []
 let item = $('.item')
 for (let i = 0; i < item.length; i++) {
     nav.push(item[i]["innerHTML"])
+}
+for (let i = 0; i < nav.length;++i) {
+    navFrame.append('<li>' + nav[i] + '</li>')
 }
