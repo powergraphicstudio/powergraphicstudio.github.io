@@ -1,9 +1,19 @@
+@font-face {
+    font-family: "vazir";
+    src: url('fonts/parsiDigits/Vazir-FD.eot');
+    src: url('fonts/parsiDigits/Vazir-FD.eot?#iefix') format('vazir-opentype'),
+    url('fonts/parsiDigits/Vazir-FD.woff') format('woff'),
+    url('fonts/parsiDigits/Vazir-FD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .bg-gray {
     /*background: #d5d5d5;*/
     background: #eaeaea;
 }
 *{
     direction: rtl;
+    font-family: "vazir";
 }
 li {
     list-style: none;
@@ -27,6 +37,11 @@ li {
     justify-content: center;
     align-items: center;
     padding: 0;
+}
+a > svg {
+    margin-left: 5px;
+    margin-bottom: 3px;
+    font-size: small !important;
 }
 .nav-bar > div {
     height: 100%;
@@ -99,7 +114,7 @@ a , a:hover {
     top: 60px;
     width: 100%;
     max-width: 300px;
-    background: rgba(220, 53, 69, 0.85);
+    background: rgba(214, 72, 72, 0.37);
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
@@ -123,4 +138,9 @@ a , a:hover {
 .nav-frame > li > a {
     justify-content: start;
     padding-right: 40px;
+    border: rgba(255, 255, 255, 0.37) 1px solid;
+
+}
+.nav-frame > li > a:hover {
+    background: rgba(255, 167, 167, 0.54);
 }
