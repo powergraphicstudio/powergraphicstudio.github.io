@@ -3,8 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="a6c64686-a25c-4031-81c3-f555e2c882fd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/all.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-duotone-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-duotone-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-duotone-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-duotone-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-duotone-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-light-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-light-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-light-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-light-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-light-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fa/webfonts/fa-solid-900.woff2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +83,7 @@
       <workItem from="1650011198954" duration="214000" />
       <workItem from="1650011459482" duration="12760000" />
       <workItem from="1650102634741" duration="14899000" />
+      <workItem from="1650274745279" duration="999000" />
     </task>
     <servers />
   </component>
