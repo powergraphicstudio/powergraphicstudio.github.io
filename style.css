@@ -7,6 +7,11 @@
     font-weight: normal;
     font-style: normal;
 }
+.mn {
+    flex:0 0 auto;
+    position: relative;
+    min-width: 8.333333%;
+}
 .bg-gray {
     /*background: #d5d5d5;*/
     background: #eaeaea;
@@ -36,12 +41,8 @@ li {
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 0;
-}
-a > svg {
-    margin-left: 5px;
-    margin-bottom: 3px;
-    font-size: small !important;
+    padding: 0 15px;
+    text-align: center;
 }
 .nav-bar > div {
     height: 100%;
@@ -137,10 +138,17 @@ a , a:hover {
 }
 .nav-frame > li > a {
     justify-content: start;
-    padding-right: 40px;
+    padding: 0 35px 0 0 !important;
     border: rgba(255, 255, 255, 0.37) 1px solid;
 
 }
 .nav-frame > li > a:hover {
     background: rgba(255, 167, 167, 0.54);
+}
+span[class^="icon-"], span[class*=" icon-"] {
+    display: flex;
+    margin-left: 5px;
+}
+span.icon-home {
+    margin-bottom: 4px;
 }
