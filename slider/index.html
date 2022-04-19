@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="swiper/swiper.bundle.min.css">
-    <title>slider</title>
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css"/>    <title>slider</title>
 </head>
 <body style="height: 100vh;overflow: hidden">
 <style>
@@ -63,11 +62,12 @@
 <script src="swiper/swiper-bundle.min.js"></script>
 <script>
     const swiper = new Swiper(".mySwiper", {
+        loop : true,
         spaceBetween: 30,
         effect: "fade",
         navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
+            nextEl: ".swiper-button-next1",
+            prevEl: ".swiper-button-prev1",
         },
     });
 

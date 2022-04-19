@@ -6,12 +6,12 @@
     <title>PGStudio</title>
     <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="icon/style.css">
+    <link rel="stylesheet" href="swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-gray">
 <!------------------------------------------------------------->
-<div class="container-fluid bg-gray min-vh-100">
-
+<div class="container-fluid">
     <div class="nav-bar row shadow-lg">
         <div class="col-2 col-lg-1">
             <span class="ntgl">
@@ -27,10 +27,28 @@
     </div>
 </div>
 <!------------------------------------------------------------->
+<div class="slider1">
+    <div class="swiper swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/nature-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="images/nature-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+                <img src="images/nature-3.jpg" />
+            </div>
+        </div>
+        <div class="swiper-button-prev icon-arrow-alt-right"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+</div>
 <!--=========================================================-->
 <script src="bootstrap/jquery.min.js"></script>
 <script src="bootstrap/bootstrap.bundle.min.js"></script>
 <script src="icon/icon.js"></script>
+<script src="swiper/swiper-bundle.min.js"></script>
 <script src="script.js"></script>
 <!--=========================================================-->
 </body>

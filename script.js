@@ -29,3 +29,12 @@ for (let i = 0; i < item.length; i++) {
 for (let i = 0; i < nav.length;++i) {
     navFrame.append('<li>' + nav[i] + '</li>')
 }
+const swiper1 = new Swiper(".swiper1", {
+    loop : true,
+    spaceBetween: 30,
+    effect: "fade",
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
