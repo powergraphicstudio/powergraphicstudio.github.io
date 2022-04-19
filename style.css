@@ -109,6 +109,73 @@ a , a:hover {
     top: 15px !important;
     transform: rotate(45deg);
 }
+@keyframes slide--in-rl {
+    0% {
+        opacity: 0;
+        width: 0;
+        right: -300px;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    40% {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.5;}
+    60% {
+        opacity: 0.6;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+        right: 0;
+    }
+}
+@keyframes fade--in {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.3;
+    }
+    60% {
+        opacity: 0.4;
+    }
+    70% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0.8;
+    }
+    90% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
 .nav-frame {
     position: absolute;
     display: none;
@@ -121,13 +188,14 @@ a , a:hover {
     flex-wrap: wrap;
     z-index: 2;
     opacity: 0;
-    transition: opacity 1s;
+    /*transition: opacity 1s;*/
 }
 .show {
     display: flex;
+    animation: slide--in-rl 500ms forwards;
 }
 .in{
-    opacity: 1;
+    /*opacity: 1;*/
 }
 .nav-frame > li {
     display: flex;
