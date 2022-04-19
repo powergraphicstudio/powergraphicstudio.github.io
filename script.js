@@ -38,4 +38,4 @@ const swiper1 = new Swiper(".swiper1", {
         prevEl: ".swiper-button-prev",
     },
 });
-$('.swiper-item').addClass("position-relative")
+$('.swiper-item').addClass("position-absolute")
