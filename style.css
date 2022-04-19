@@ -222,7 +222,7 @@ span.icon-home {
 }
 @media (max-width: 576px) {
         .slider1 {
-                height: 50vw !important;
+                height: 55vw !important;
         }
     .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
         font-size: 8vw;
