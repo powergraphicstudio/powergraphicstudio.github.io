@@ -222,15 +222,17 @@ span.icon-home {
 }
 @media (max-width: 576px) {
         .slider1 {
-                height: 60vh;
+                height: 45vw !important;
         }
-
+    .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
+        font-size: 8vw;
+    }
 }
 
 .slider1 {
     padding: 0;
     margin: 0 auto;
-    height: 45vw;
+    height: 40vw;
     width: 100%;
 }
 .swiper1 {
