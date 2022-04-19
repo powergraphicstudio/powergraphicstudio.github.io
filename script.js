@@ -50,9 +50,7 @@ const swiper1 = new Swiper(".swiper1", {
 
 
 
-          delay: 2500,
 
-          disableOnInteraction: false,
 
 
 
