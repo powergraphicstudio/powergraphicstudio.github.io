@@ -37,6 +37,22 @@ const swiper1 = new Swiper(".swiper1", {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
     },
+    autoplay: {
+
+          delay: 2500,
+
+          disableOnInteraction: false,
+
+        },
+
+
 });
 
-$('.swiper-item').addClass("position-relative")
+
+
+          delay: 2500,
+
+          disableOnInteraction: false,
+
+
+
