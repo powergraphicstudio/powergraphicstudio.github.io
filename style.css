@@ -25,10 +25,9 @@ li {
 }
 .nav-bar {
     height: 60px;
-    background: var(--danger);
+    background: var(--danger) url("images/nav.jpg") repeat-x;
 }
 .nav-bar a:hover{
-    background: var(--danger);
     color: #ffffff;
 }
 .nav-bar div:hover {
