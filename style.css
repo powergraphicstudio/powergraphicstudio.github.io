@@ -25,7 +25,7 @@ li {
 }
 .nav-bar {
     height: 60px;
-    background: #743031 url("images/nav.jpg") center center no-repeat;
+    background: linear-gradient(#bb1919, #da0e0e) /* url("images/nav.jpg") center center no-repeat*/;
     background-size: cover;
 }
 .nav-bar a:hover{
