@@ -185,7 +185,7 @@ a , a:hover {
     top: 60px;
     width: 100%;
     max-width: 300px;
-    background: rgba(117, 63, 63, 0.6);
+    background: rgba(180, 53, 53, 0.6);
     padding: 0;
     margin: 0;
     flex-wrap: wrap;
@@ -249,4 +249,102 @@ span.icon-home {
 
 .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
     color: rgba(255, 255, 255, 0.76) !important;
+}
+
+
+
+.service-box {
+    height: fit-content;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service-box > div {
+    height: 300px;
+    /*border: 1px solid rgba(203, 202, 202, 0.91);*/
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+/*Animations Start*/
+@keyframes animate1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+/*Animations End*/
+.box {
+    top: 10px;
+    position: relative;
+    width: 95px;
+    height: 95px;
+    background: rgba(141, 141, 141, 0.5);
+    border-radius: 50%;
+    overflow: hidden;
+}
+.box::before {
+    content: " ";
+    position: absolute;
+    inset: -5px 30px;
+    background: linear-gradient(315deg, #d30a0a, #3726ff);
+    transition: 0.5s;
+    animation: animate1 5s linear infinite ;
+}
+.box:hover::before {
+    inset: -10px 0;
+}
+.box::after {
+    content: " ";
+    position: absolute;
+    inset: 3px;
+    background: rgb(234, 234, 234);
+    border-radius: 50%;
+    z-index: 1;
+}
+.box .content {
+    position: absolute;
+    inset: 3px;
+    z-index: 2;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.box .content img {
+    width: 100%;
+    height: 100%;
+}
+.service-box > div h3 {
+    position: absolute;
+    font-size: 0.95rem;
+    top: 110px;
+    text-align: center;
+}
+.service-box > div p {
+    position: absolute;
+    font-size: 0.75rem;
+    top: 145px;
+    text-align: center;
+    width: 80%;
+}
+.service-box > div .see {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    font-size: 0.7rem;
+    z-index: 1;
+    background: rgba(234, 234, 234, 0.9);
+    transition: all 350ms;
+}
+.service-box > div .see:hover {
+    color: #cc0000;
 }
