@@ -231,7 +231,6 @@ span.icon-home {
         font-size: 8vw;
     }
 }
-
 .slider1 {
     padding: 0;
     margin: 0 auto;
@@ -246,19 +245,14 @@ span.icon-home {
     width: 100%;
     height: 100%;
 }
-
 .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
     color: rgba(255, 255, 255, 0.76) !important;
 }
-
-
-
 .service-box {
     height: fit-content;
     width: 100%;
     margin: 0 auto;
 }
-
 .service-box > div {
     height: 300px;
     /*border: 1px solid rgba(203, 202, 202, 0.91);*/
@@ -275,9 +269,6 @@ span.icon-home {
         transform: rotate(360deg);
     }
 }
-
-
-
 /*Animations End*/
 .box {
     top: 10px;
