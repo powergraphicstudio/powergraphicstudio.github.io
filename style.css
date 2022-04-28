@@ -86,7 +86,7 @@
         content: " ";
         position: absolute;
         inset: -5px 30px;
-        background: linear-gradient(315deg, #d30a0a, #3726ff);
+        background: linear-gradient(315deg, #830e0e, #3a4daf);
         transition: 0.5s;
         animation: animate1 5s linear infinite ;
     }
@@ -183,8 +183,10 @@
         content: " ";
         position: absolute;
         inset: -5px 30px;
-        background: linear-gradient(315deg, #d30a0a, #3726ff);
+        /*background: linear-gradient(315deg, #d30a0a, #3726ff);*/
         transition: 0.5s;
+        background: linear-gradient(315deg, #830e0e, #3a4daf);
+
         animation: animate1 5s linear infinite ;
     }
     .box:hover::before {
@@ -273,7 +275,7 @@ li {
 }
 .nav-bar {
     height: 60px;
-    background: linear-gradient(#bb1919, #da0e0e) /* url("images/nav.jpg") center center no-repeat*/;
+    background: #370000;
     background-size: cover;
 }
 .nav-bar a:hover{
@@ -420,4 +422,23 @@ span.icon-home {
 }
 .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
     color: rgba(255, 255, 255, 0.76) !important;
+}
+footer {
+    width: 100%;
+    height: 300px;
+    background: rgba(55, 0, 0, 0.95);
+    position: relative;
+}
+.footer {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
