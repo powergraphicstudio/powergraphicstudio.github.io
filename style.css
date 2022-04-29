@@ -413,8 +413,10 @@ span.icon-home {
     width: 100%;
 }
 .swiper1 {
-    height: 100% !important;
-    width: 100% !important;
+    height: 99% !important;
+    width: 99% !important;
+    border-radius: 20px;
+    margin: 5px;
 }
 .swiper1 img {
     width: 100%;
