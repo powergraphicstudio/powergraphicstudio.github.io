@@ -1,4 +1,3 @@
-
 //navigation meno scripts
 const navigation = $('.nav-bar')
 navigation.append('<ul class="nav-frame d-md-none"></ul>')
@@ -18,7 +17,6 @@ tgler.click(function () {
     setTimeout(function () {
         navFrame.toggleClass("in");
     },1)
-
 })
 //create meno
 let nav = []

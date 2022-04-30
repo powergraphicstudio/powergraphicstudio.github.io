@@ -411,16 +411,13 @@ span.icon-home {
 }
 .slider1 {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     height: 40vw;
     width: 100%;
 }
 .swiper1 {
-    height: 99% !important;
-    width: 99% !important;
-    border-radius: 20px;
-    margin: 5px;
-    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.507);
+    height: 100%;
+    width: 100%;
 }
 .swiper1 img {
     width: 100%;
@@ -451,6 +448,9 @@ footer {
 .search-box {
 
 }
+.search-box:hover {
+    border: none;
+ }
 .input1{
     outline: 1px yellow;
     border: 1px rgb(128, 255, 0);
