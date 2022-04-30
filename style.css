@@ -280,12 +280,13 @@ li {
     height: 60px;
     background: #370000;
     background-size: cover;
+    position: relative;
 }
 .nav-bar a:hover{
     color: #ffffff;
 }
 .nav-bar div:hover {
-    border-bottom: rgba(255, 255, 255, 0.75) solid 2px;
+    border-bottom: rgba(255, 255, 255, 0.75) 2px solid;
 }
 .nav-bar a {
     color: #ffffff;
@@ -446,24 +447,24 @@ footer {
     text-transform: uppercase;
 }
 .search-box {
-
+    margin-right: 0;
 }
 .search-box:hover {
-    border: none;
+    border: none !important;
  }
 .input1{
-    outline: 1px yellow;
-    border: 1px rgb(128, 255, 0);
+    outline: none;
     border-radius: 25px;
-    padding: 8px;
-    background: #3a4daf;
-    color: #4d004d;
+    padding: 5px;
+    border: none;
+    /*background: #3a4daf;*/
+    background: rgba(255, 255, 255, 0.7);
+    color: #000538;
     text-align: center;
     width: 0;
-    
     opacity: 00;
     transition: all 0.5s ease-in-out;
-
+    font-size: 0.9rem;
 }
 /* .input1:hover {
     width: 100px;
@@ -471,7 +472,7 @@ footer {
 } */
 
 .search-box:hover > .input1{
-    width: 200px;
+    width: 150px;
     opacity: 100;
 }
 .svg{

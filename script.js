@@ -9,6 +9,7 @@ navItem.addClass("d-md-flex item");
 tgler.removeClass("d-md-flex item");
 tgler.addClass("d-flex d-md-none");
 logo.removeClass("d-md-flex item");
+$('.search-box').removeClass("item");
 logo.addClass("d-flex");
 const ic = $('.ntgl i:nth-child(2)');
 tgler.click(function () {
@@ -36,10 +37,7 @@ const swiper1 = new Swiper(".swiper1", {
         prevEl: ".swiper-button-prev",
     },
     autoplay: {
-
           delay: 3000,
-
           disableOnInteraction: false,
-
     },
 })
