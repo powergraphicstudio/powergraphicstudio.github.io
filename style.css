@@ -466,11 +466,6 @@ footer {
     transition: all 0.5s ease-in-out;
     font-size: 0.9rem;
 }
-/* .input1:hover {
-    width: 100px;
-    opacity: 100;
-} */
-
 .search-box:hover > .input1{
     width: 150px;
     opacity: 100;
