@@ -278,7 +278,7 @@ li {
 }
 .nav-bar {
     height: 60px;
-    background: linear-gradient(#006b71, #00565b) /* url("images/nav.jpg") center center no-repeat*/;
+    background: linear-gradient(#006b71, #006960) /* url("images/nav.jpg") center center no-repeat*/;
     background-size: cover;
     position: relative;
 }
