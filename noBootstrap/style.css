@@ -1,4 +1,4 @@
-@font-face {
+/*Monday, Mehr 3, 1401 AP +300 Line code+*/  @font-face {
     font-family: "vazir";
     src: url('fonts/parsiDigits/Vazir-FD.eot');
     src: url('fonts/parsiDigits/Vazir-FD.eot?#iefix') format('vazir-opentype'),
@@ -10,7 +10,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "vazir" , "2  Arabic Style";
+    font-family: "vazir", "2  Arabic Style", serif;
     direction: rtl;
 }
 body {
@@ -28,42 +28,98 @@ li {
 #header {
     width: 100%;
 }
-#header > nav {
-    width: 100%;
-    height: 70px;
-    background: linear-gradient(#006b71, #00565b) /* url("images/nav.jpg") center center no-repeat*/;
-
+.mnav {
+    background: #006b71;
+    width: 100vw;
+    height: 60px;
 }
-#header > nav > ul {
-    margin: 0 auto;
-    width: 95%;
-    height: 100%;
+.mnav > ul {
     display: flex;
-    flex-wrap: wrap;
+    width: 96vw;
+    height: 100%;
     align-items: center;
+    margin: auto;
 }
-#header > nav > ul > li {
-    color: #ffffff;
-    height: 100%;
+.ocnav {
+    width: 40px;
+    height: 40px;
+    background:  #00565b;
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 0 10px;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
 }
-#header > nav > ul > li:last-child {
-    margin-right: auto;
+.ocnav:after {
+    content: " ";
+    width: 40px;
+    height: 40px;
+    background:  red;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 8;
+    top: 110vw;
+    right: 80vw;
+    display: none;
 }
-#header > nav > ul > li a {
-    color:#ffffff;
+.ocnav i {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 4px;
+    background: #ffffff;
+    border-radius: 3px;
 }
-#header > nav > ul > li:hover {
-    height: 68px;
-    border-bottom: 2px #ffffff solid;
+.ocnav i:nth-child(1) {
+     margin-left: 10px;
+ }
+.ocnav i:nth-child(2) {
+    margin-right: 8px;
+}
+.mnav > ul > li:first-of-type > div:nth-child(2) {
+    background: #006b71;
+    width: 100vw;
+    height: 120vw;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 55vw;
+    display: none;
+}
+.mnav > ul > li:first-of-type > div:nth-child(2) > ul {
+
+    background:  #00565b;
+    width: 100vw;
+    height: 120vw;
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    right: 0;
+    border-bottom-left-radius: 90vw;
+    display: none;
+}
+
+
+
+
+
+
+
+
+#header > .bignav {
+    display: none;
 }
 .slider1 {
     padding: 0;
     margin: 0;
-    height: 40vw;
+    height: 75vw;
     width: 100%;
 }
 .swiper1 {
@@ -77,25 +133,267 @@ li {
 .swiper-button-next::after, .swiper-rtl .swiper-button-prev::after {
     color: rgba(255, 255, 255, 0.76) !important;
 }
+.swiper2 {
+    width: 85%;
+    margin: auto;
+    height: 525px;
+    font-size: 0.9em;
+}
+.swiper2 > div , .swiper2 > div > div , .service{
+    width: 100%;
+    height: 100%;
+}
 .service {
-    width: 400px;
     background: #ffffff;
-    height: 550px;
     display: flex;
     justify-content: center;
-    border-radius: 4px;
 }
 .service > div {
-    width: 350px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
     text-align: center;
+    justify-content: center;
 }
-.service > div > img {
-    width: 250px;
+.service > div > div{
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
     padding: 10px;
-    margin: 20px 0;
+    margin: 0 auto 20px auto;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.service > div > div::before {
+    background: linear-gradient(315deg, #006b71,#ffffff,#ab7e33);
+    content: " ";
+    position: absolute;
+    inset: -2px -2px;
+    animation: linear infinite rotateC 5s;
+}
+.service > div > div > img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
 }
 .see {
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #7a7a7a;
+}
+
+.sec1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sec1 > div {
+    margin-top: 20px;
+}
+.cube {
+    height: 525px;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+}
+.swiper3 {
+    width: 400px;
+    height: 400px;
+}
+.swiper3 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+.swiper3 .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+.card {
+    display: flex;
+    width: 95%;
+    height: 475px;
+    flex-direction: column;
+    margin: auto;
+    background: #00a5af;
+}
+.swiper5 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.swiper5 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper4 {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(#006b71, #00565b);
+}
+.swiper4 .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.swiper5 {
+    height: 80%;
+    width: 100%;
+}
+.swiper4 .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+.swiper4 .swiper-slide-thumb-active {
+    opacity: 1;
+}
+.swiper4 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*----------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width: 720px) {
+    #header > .bignav {
+        width: 100%;
+        background: linear-gradient(#006b71, #00565b);
+        height: 65px;
+        display: block;
+    }
+    #header > .bignav > ul {
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #header > .bignav > ul > li {
+        color: #ffffff;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        position: relative;
+    }
+    #header > .bignav > ul > li:last-child {
+        margin-right: auto;
+    }
+    #header > .bignav > ul > li a {
+        color:#ffffff;
+    }
+    #header > .bignav > ul > li:hover:after {
+        content: " ";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 63px;
+        border-bottom: 2px solid #ffffff;
+    }
+    #header > .bignav > ul > li:last-child:hover:after {
+        display: none;
+    }
+    .slider1 {
+        height: 40vw;
+    }
+    .swiper2 {
+        width: 45%;
+    }
+    .cube {
+        width: 45%;
+    }
+}
+@media only screen and (min-width: 1080px) {
+    .swiper2 {
+        width: 35%;
+        height: 525px;
+        font-size: 1em;
+    }
+    .service > div > div {
+        width: 250px;
+        height: 250px;
+    }
+    .service > div > div::before {
+        inset: -3px -3px;
+    }
+    .see {
+        font-size: 0.9em;
+    }
+    .cube {
+        height: 525px;
+        width: 35%;
+    }
+    .swiper3 {
+        width: 400px;
+        height: 400px;
+    }
+    .card {
+        width: 85%;
+        height: 575px;
+    }
+}
+@media only screen and (min-width: 1450px) {
+    .swiper2 {
+        width: 350px;
+        height: 575px;
+    }
+    .service > div {
+        width: 90%;
+    }
+    .service > div > div{
+        width: 250px;
+        height: 250px;
+    }
+    .cube {
+        height: 575px;
+        width: 350px;
+    }
+    .swiper3 {
+        width: 300px;
+        height: 300px;
+    }
+    .card {
+        width: 700px;
+        height: 575px;
+    }
+}
+@media only screen and (min-width: 1650px) {
+    #header > .bignav {
+        height: 70px;
+    }
+    #header > .bignav > ul > li:hover:after {
+        height: 68px;
+    }
+    .swiper2 {
+        width: 400px;
+        height: 550px;
+    }
+    .service > div {
+        width: 90%;
+    }
+    .cube {
+        height: 550px;
+        width: 400px;
+    }
+    .card {
+        width: 800px;
+        height: 550px;
+    }
 }
