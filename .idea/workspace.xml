@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c64686-a25c-4031-81c3-f555e2c882fd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/noBootstrap/animation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noBootstrap/images/Drawer-navigation.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/noBootstrap/images/gif.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/noBootstrap/animation.css" beforeDir="false" afterPath="$PROJECT_DIR$/noBootstrap/animation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noBootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/noBootstrap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noBootstrap/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/noBootstrap/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/noBootstrap/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/noBootstrap/style.css" afterDir="false" />
@@ -112,7 +110,10 @@
       <workItem from="1664015849036" duration="6242000" />
       <workItem from="1664105603087" duration="1646000" />
       <workItem from="1664136955511" duration="8043000" />
-      <workItem from="1664188670081" duration="10634000" />
+      <workItem from="1664188670081" duration="10970000" />
+      <workItem from="1664309027693" duration="814000" />
+      <workItem from="1664375107387" duration="9999000" />
+      <workItem from="1664437441389" duration="6041000" />
     </task>
     <servers />
   </component>

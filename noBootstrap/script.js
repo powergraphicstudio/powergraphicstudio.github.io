@@ -61,3 +61,20 @@ const swiper5 = new Swiper(".swiper5", {
         swiper: swiper4,
     },
 })
+
+const ocNav = document.querySelector('.ocnav')
+const bg1 = document.querySelector('.bg1')
+const bg2 = document.querySelector('.bg2')
+const icon1 = document.querySelector('.ocnav i:nth-child(1)')
+const icon2 = document.querySelector(".ocnav i:nth-child(2)")
+const step1 = () => {
+    bg1.classList.toggle("bg1s1")
+    bg2.classList.toggle("bg2s1")
+    ocNav.classList.toggle("tgl1")
+    icon1.classList.toggle("x1")
+    icon2.classList.toggle("x2")
+    document.querySelector("body").classList.toggle("blur")
+}
+ocNav.onclick = () => {
+    step1()
+}
