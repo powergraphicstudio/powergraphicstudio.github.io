@@ -23,7 +23,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 50px;
+  gap: 2px;
   flex-wrap: wrap;
 }
 
@@ -57,11 +57,14 @@ body{
   background: #003cff62; /* Set the color of the scrollbar thumb on hover */
   
 }
+.d1 {
+  width: 200px;
+}
 
 
 
 .br {
-  border-radius: 60px;
+  border-radius: 100px;
 }
 
   @keyframes floating {
@@ -88,15 +91,18 @@ body{
         margin-bottom: 50px;
     }
     .container2{
-      gap: 60px;
+      gap: 10px;
       width: 90%;
     }
     .br {
       width: 120px;
-      border-radius: 40px;
+      border-radius: 70px;
     }
     .imgcl{
       width: 400px;
+    }
+    .d1 {
+      width: 300px;
     }
   }
 
