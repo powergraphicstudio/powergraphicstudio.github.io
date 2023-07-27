@@ -14,7 +14,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 100px;
+    gap: 10px;
 
 }
 .container2 {
@@ -63,11 +63,13 @@ body{
   width: 200px;
 }
 .bg{
-  background: linear-gradient(40deg, rgba(34, 34, 34, 0.733) 0%, rgb(102, 100, 98) 100%);
+  background: linear-gradient(40deg, rgba(137, 175, 226, 0) 0%, rgba(119, 119, 119, 0.158) 100%);
   width: 260px;
   height: 370px;
   border-radius: 10px;
   box-shadow: 0 20px 20px rgb(34, 32, 32); 
+  border: solid 1px rgba(132, 0, 255, 0.137);
+  backdrop-filter: blur(3px);
 }
 li {
   list-style-image: url(./tags-fill.svg);
@@ -79,6 +81,11 @@ li {
   box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.514);
   
 }
+.bann{
+  width: 80%;
+  border-radius: 10px;
+  border: solid 1px yellow;
+}
 .tag{
   display: flex;
   gap: 10px;
@@ -87,8 +94,14 @@ li {
   margin: auto;
 
 }
+.container3{
+    gap: -20px;
+}
 .br {
   border-radius: 100px;
+}
+.po{
+  height: auto;
 }
 
 p{
@@ -123,7 +136,7 @@ p{
     }
     .container2{
       gap: 10px;
-      width: 90%;
+      width: 100%;
     }
     .bg{
       width: 160px;
@@ -131,6 +144,9 @@ p{
     }
     .tag{
       gap: 2px;
+    }
+    .bann{
+      width: 100%;
     }
     li{
       transform: scale(0.7);
@@ -145,6 +161,7 @@ p{
     .d1{
       width: 120px;
     }
+    
 
   }
 
