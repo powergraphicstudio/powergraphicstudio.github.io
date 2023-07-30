@@ -101,6 +101,7 @@ header {
   }
   .img1{
     transform: scale(1.5);
+    margin-top: 20px;
     margin-bottom: 20px;
   }
   button {

@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-image: url(shattered-island.gif);
     background-repeat: repeat;
@@ -110,6 +113,58 @@ p{
 .up{
   transform: translatey(-10px);
 }
+.b1{
+  color: #424149;
+  width: 400px;
+  background: #424149;
+  background: linear-gradient(145deg, #7982ff, #7982ff);
+  box-shadow: none;
+  margin: 10px;
+}
+.b1:hover{
+  box-shadow: 0 0 0 0;
+}
+.gf{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  text-align: center;
+  border-radius: 5px;
+  width: 400px;
+  height: 100px;
+  background-color: #424149;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.349);
+}
+.c1{
+  background-color: rgb(81, 83, 81);
+  gap: 20px;
+}
+
+.c2{
+  background-color: rgb(79, 149, 230);
+  gap: 20px;
+}
+
+.c3{
+  background-color: rgb(236, 48, 48);
+  gap: 20px;
+}
+
+.c4{
+  background-color: rgb(45, 184, 45);
+}
+
+.b2{
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.507));
+}
+.gf:hover{
+  cursor: pointer;
+}
+
+.p1{
+  width: 800px;
+}
 
   @keyframes floating {
     0% {
@@ -161,7 +216,12 @@ p{
     .d1{
       width: 120px;
     }
-    
+    .b1{
+      width: 200px;
+    }
+    .gf{
+      margin-top: 10px;
+    }
 
   }
 
