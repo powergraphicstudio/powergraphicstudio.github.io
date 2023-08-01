@@ -40,7 +40,8 @@ body{
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.541);
 }
 .card:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
+    filter: brightness(150%)
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -162,6 +163,10 @@ p{
   cursor: pointer;
 }
 
+.p2{
+  width: 85%;
+}
+
 .p1{
   width: 800px;
 }
@@ -215,6 +220,10 @@ p{
     }
     .d1{
       width: 120px;
+    }
+    .p1{
+      width: 90%;
+      height: auto;
     }
     .b1{
       width: 200px;
