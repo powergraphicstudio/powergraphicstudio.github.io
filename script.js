@@ -11,5 +11,5 @@ function insta() {
   }
 
   function call() {
-    window.open("tel:989038797608");
+    window.open("tel:09038797608");
   }
